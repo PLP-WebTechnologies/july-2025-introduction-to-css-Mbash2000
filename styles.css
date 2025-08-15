@@ -1,0 +1,84 @@
+/* ===== General Page Styling ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+/* ===== Box Model Visualization ===== */
+* {
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+    /* Light outline for all elements */
+}
+
+/* ===== Header Styling ===== */
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    outline: 2px dashed red;
+    /* Box model highlight */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Card Sections ===== */
+.card {
+    background-color: white;
+    border: 2px solid #ddd;
+    /* Box Model: Border */
+    padding: 20px;
+    /* Box Model: Padding */
+    margin: 20px auto;
+    /* Box Model: Margin */
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    outline: 2px dashed blue;
+    /* Box model highlight */
+}
+
+.card h2 {
+    color: #007bff;
+    outline: 2px dashed green;
+    /* Box model highlight */
+}
+
+/* ===== Button Styling ===== */
+.styled-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 2px dashed orange;
+    /* Box model highlight */
+}
+
+.styled-btn:hover {
+    background-color: #218838;
+}
+
+/* ===== Footer Styling ===== */
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    outline: 2px dashed purple;
+    /* Box model highlight */
+}
